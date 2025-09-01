@@ -32,7 +32,7 @@ namespace VendingMachineConsole
 
             bool running = true;
 
-            while (running)
+            while (running) //ff
             {
                 Console.WriteLine("\nAvailable products:");
                 Trade(vMachine);
