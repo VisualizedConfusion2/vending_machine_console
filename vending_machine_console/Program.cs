@@ -35,17 +35,7 @@ namespace VendingMachineConsole
             while (running)
             {
                 Console.WriteLine("\nAvailable products:");
-                for (int i = 0; i < vMachine.Slots.Count; i++)
-                {
-                    if (vMachine.Slots[i].Products.Count > 0)
-                    {
-                        Console.WriteLine($"{i}: {vMachine.Slots[i].Products[0].Name} - {vMachine.Slots[i].Price} kr. (Stock: {vMachine.Slots[i].Products.Count})");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"{i}: [EMPTY]");
-                    }
-                }
+                Trade(vMachine);
 
                 Console.Write("\nSelect a product slot number (or type 'q' to quit): ");
                 string input = Console.ReadLine();
