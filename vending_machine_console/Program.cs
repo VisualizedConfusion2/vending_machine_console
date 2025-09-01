@@ -33,7 +33,7 @@ namespace VendingMachineConsole
 
             bool running = true;
 
-            while (running)
+            while (running) //ff
             {
                 Console.WriteLine("\nAvailable products:");
                 for (int i = 0; i < vMachine.Slots.Count; i++)
