@@ -30,6 +30,7 @@ namespace VendingMachineConsole
                 }
             }
 
+
             bool running = true;
 
             while (running) //ff
