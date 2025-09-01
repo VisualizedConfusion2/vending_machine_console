@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="vending_machine_library">
+      <HintPath>..\..\vending_machine_library\vending_machine_library\bin\Debug\net8.0\vending_machine_library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
