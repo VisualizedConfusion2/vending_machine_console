@@ -35,8 +35,8 @@ namespace VendingMachineConsole
             while (running) //ff
             {
                 Console.WriteLine("\nAvailable products:");
-                Trade(vMachine);
-
+                Trade(vMachine); // ff
+                //ff
                 Console.Write("\nSelect a product slot number (or type 'q' to quit): ");
                 string input = Console.ReadLine();
 
